@@ -63,5 +63,5 @@ verror extends the base Error class, and allows you to define your messages usin
 
 git 
 >##verror
->[verror](https://npmjs.org/package/verror)扩展了Error基类，它允许你以**printf**的形式输出消息。你的应用通常是一些异步方法的组合，并且处理错误时，你可能想将这个错误信息以冒泡的形式传播到你的系统里。**verror**拥有**VError**和**WError**，它们允许你通过链式结构汇集多层错误，并且同样能看到在信息中错误的组合（以**VError**的形式），或者在**WError**中有一个最终的消息，但是能用程序访问在链式结构中之前的错误。
+## ## ## >[verror](https://npmjs.org/package/verror)扩展了Error基类，它允许你以**printf**的形式输出消息。你的应用通常是一些异步方法的组合，并且处理错误时，你可能想将这个错误信息以冒泡的形式传播到你的系统里。**verror**拥有**VError**和**WError**，它们允许你通过链式结构汇集多层错误，并且同样能看到在信息中错误的组合（以**VError**的形式），或者在**WError**中有一个最终的消息，但是能用程序访问在链式结构中之前的错误。
 
