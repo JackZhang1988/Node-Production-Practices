@@ -184,7 +184,7 @@ callback(new Error('something bad happened'));
 下表以 NodeJS 核心模块的常见函数为例，做了一个总结，大致按照每种问题出现的频率来排列：
 
 |函数|类型|错误|错误类型|传递方式|调用者|
-|---|
+|---|---|---|---|---|---|
 |`fs.stat`|异步|file not found|操作失败|callback|handle|callback error|
 |`JSON.parse`|同步|bad user input|操作失败|throw|`try/catch`|
 |`fs.stat`|异步|null for filename|失误|throw|none (crash)|
