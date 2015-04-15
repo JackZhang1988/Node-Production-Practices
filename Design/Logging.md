@@ -11,11 +11,11 @@
 Bunyan is a straightforward logging library for Node.js applications. Bunyan's output is line delimited JSON, which makes it easy to consume with your normal unix command line utilities like grep and sed, and also with its own CLI utility, or with the json cli utility.
 
 ###bunyan
-`Bunyan`是一个简单明了的Nodejs应用log库。Bunyan的输出是按一定规则的json，这使得你可以很方便的使用unix命令如grep和sed，或它自己的命令行工具，或其他json命令行工具来操控它的输出。
+`Bunyan`是一个简单明了的Nodejs应用log库。Bunyan的输出是按一定规则的json，这使得你可以很方便的使用unix命令如`grep`和`sed`，或它自己的命令行工具，或[json cli utility](https://www.npmjs.com/package/json)来操控它的输出。
 
 >Bunyan also comes with built-in support for DTrace, which allows you to keep your existing log level for your existing destinations (e.g. INFO) but enable at runtime a more verbose level (e.g. TRACE) and be notified in user space of those log entries, without them also going to your existing destinations and potentially filling the disks. DTrace is completely safe to use at runtime, so if enabling higher levels of logging would result in detrimental effect your system DTrace will exit before doing your system harm.
 
-Bunyan同样内置支持动态跟踪,它允许你针对现有的目标保持现有的日志等级（比如INFO()方法），但在运行时启动一个更详细的级别(比如TRACE方法)，然后通知用户端这些log入口，从而不会填满你的磁盘。DTrace在运行时使用非常安全，如果有更高级别的日志等级会导致对你的系统有不好的影响，DTrace会在影响发生前退出。
+Bunyan同样内置支持动态跟踪,它允许你针对现有的目标保持现有的日志等级（比如`INFO()`方法），但在运行时启动一个更详细的级别(比如`TRACE`方法)，然后通知用户端这些log入口，从而不会填满你的磁盘。DTrace在运行时使用非常安全，如果有更高级别的日志等级会导致对你的系统有不好的影响，DTrace会在影响发生前退出。
 
 That is, you've already defined in your configuration the level at which you want your application to log, but your process is currently misbheaving and you're looking to find out more information without potentially restarting the service or increasing the amount of storage where your logs are stored. With bunyan and DTrace you can enable your process to send to you the log level you're interested in at runtime.
 
