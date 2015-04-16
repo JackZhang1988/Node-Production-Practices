@@ -11,6 +11,29 @@
 ##目录：
 *设计：https://www.joyent.com/developers/node/design
 
-*部署：https://www.joyent.com/developers/node/deploy
+- [EventEmitter](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/EventEmitter.md)
+- [Streams](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Streams.md)
+- [Control Flow](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Control%20Flow.md)
+- [Coding Style](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Coding%20Style.md)
+- [Linting](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Linting.md)
+- [Logging](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Logging.md)
+- [Client Server](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Client%20Server.md)
+- [Specific Software](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Specific%20Software.md)
+- [Error Handling](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Design/Error%20Handling.md)
+
+*部署：https://www.joyent.com/developers/node/
+
+- [Cluster](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Deploy/Cluster.md) 
+- [Domains](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Deploy/Domains.md)
+- [Deploying New Versions](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Deploy/Deploying%20New%20Versions.md)
+- [Service Management](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Deploy/Service%20Management.md)
+- [Dependency Management](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Deploy/Dependency%20Management.md)
 
 *调试：https://www.joyent.com/developers/node/debug
+
+- [Debugging Performance Issues](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/Debugging%20Performance%20Issues.md)
+- [Debug a Running Process (DTrace)](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/Debug%20a%20Running%20Process%20(DTrace).md)
+- [Postmortem](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/Postmortem.md)
+- [Postmortem Debugging with mdb](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/Postmortem%20Debugging%20with%20mdb.md)
+- [Logging](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/Logging.md)
+- [MDB](https://github.com/JackZhang1988/Node-Production-Practices/blob/master/Debug/MDB.md)
